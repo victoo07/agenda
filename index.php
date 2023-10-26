@@ -31,7 +31,7 @@
 
                          <Td class="actions">
                               <a href="<?$BASE_URL?>show.php?id=<?$contact["id"]?>"><i class="fas fa-eye check-icon"></i></a>
-                              <a href="<?$BASE_URL?>show.php?id=<?$contact["id"]?>"><i class="fas fa-edit edit-icon"></i></a>
+                              <a href="<?$BASE_URL?>show.php?id=<?$contact["id"]?>"><i class="far fa-edit edit-icon"></i></a>
                               <form class="delete-form" action="<?=$BASE_URL?>/config/process.php" method="POST">
                               <input type="hidden" name="type" value="delete">
                               <input type="hidden" name="id" value="<?$contact["id"]?>">
